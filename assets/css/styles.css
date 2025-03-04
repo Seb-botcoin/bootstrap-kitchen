@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/*
+@use "base/reset";
+@use "base/global";
+// Import des layouts
+@use "layout/header";
+@use "layout/footer";
+@use "layout/grid";
+@use "layout/forms";
+@use "layout/sidebar";
+//  Import des composants
+//  Import buttons
+@use "components/buttons/primary";
+@use "components/buttons/secondary";
+@use "components/buttons/switch";
+//  Import cards
+@use "components/cards/plan-card";
+//  Import modals
+@use "components/modals/modal";
+//  Import others
+@use "components/alerts";
+@use "components/badges";
+@use "components/breadcrumbs";
+@use "components/carousel";
+@use "components/dropdown";
+@use "components/pagination";
+//  Import des pages spécifiques
+@use "pages/home";
+@use "pages/about";
+@use "pages/contact";
+@use "pages/blog";
+@use "pages/page-404";
+//  Import des thèmes
+@use "themes/light";
+@use "themes/dark";
+//  Import des utilitaires
+@use "utils/animations";
+@use "utils/spacing";
+@use "utils/accessibility";
+@use "utils/helpers";
+*/
+.hero {
+  background-image: url("/assets/images/salade.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh; /* Limitez la hauteur à 50vh */
+  color: white;
+}
+.hero h1 {
+  font-size: 4rem;
+}
+
+.testimonial-image {
+  height: 400px;
+  object-fit: cover;
+}
+
+.presentation-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presentation-card img {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
